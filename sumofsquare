@@ -1,0 +1,4 @@
+def sum_of_squares(numbers):
+    return sum([num**2 for num in numbers])
+my_list = [1, 2, 3, 4, 5]
+print(sum_of_squares(my_list))  
